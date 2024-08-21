@@ -1,0 +1,37 @@
+body{
+ color: aliceblue;
+
+ background-color: crimson;
+}
+
+.quicksand-uniquifier {
+  font-family: "Quicksand", sans-serif;
+}
+
+.videoprincipal {
+  background: rgb(184,156,213);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.video{
+margin-bottom: 20px;
+}
+
+.categoria-video {
+display: flex;
+overflow-x:auto
+gap: auto
+}
+
+.categoria-video img{
+opacity: 0.5;
+height: 300px;
+}
+
+.categoria-video img:hover{
+  opacity: 1.0;
+}
